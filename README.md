@@ -1,5 +1,9 @@
 # Intro
 
+Gymtastic is small fitness center with big dreams of helping their community become active and healthy. So far, they've been using an Excel spreadsheet to manage their business, but they'd like to build a more powerful system using Python, Django, Django REST Framework and SQL.
+
+Please follow the setup steps below and follow the project instructions to help Gymtastic grow their business.
+
 # Setup
 
 The project requires Python 3.8 or higher.
@@ -14,13 +18,18 @@ Congrats! Now you can browse the API endpoints by going to `http://localhost:800
 
 # Project Instructions
 
-Please read over the feature descriptions below and pick two for implementation in the REST API. Please don't spend more than 3 hours on this project. For simplicity, don't implement any authentication or permissions. Assume a trusted client will be making all the requests. If you have time to write tests or you like to use TDD, that's nice, but please focus mostly on extending the domain model and implementing the required business logic for the features.
+Please read over the feature descriptions below and pick two for implementation in the REST API. Please don't spend more than 3 hours on this project. For simplicity, don't implement any authentication or permissions. Assume a trusted client will be making all the requests. If you have time to write tests or you like to use TDD, that's nice, but please focus on extending the domain model and implementing the required business logic for the features.
+
+The first step is to clone this repository to your workstation. Once you're done, you can submit it by sending the project in a file archive email attachment or by pushing the code to your own public repo and sharing the link with us. Please send us an email when you're done.
+
+If it's been a while since you've used this project stack, you'd likely want to reference the documentation for [Django](https://docs.djangoproject.com/en/4.2/) and [Django REST Framework](https://www.django-rest-framework.org/).
 
 In summary:
 - Pick two features below and implement them
 - Don't spend more than 3 hours on this project
 - Don't implement any authentication or permissions
 - Tests are always nice, but prioritize data modeling and business logic
+- Send us an email when you're done. Attach the files in an archive or link us to a public repo with the code.
 
 ## Features
 
@@ -56,3 +65,13 @@ Gymastic has had a problem lately with customers cancelling at the last moment. 
 
 Pointers:
 - Gymtastic's app doesn't yet capture a booking status or allow changing it via the REST API. This functionality should be added when building this feature.
+
+
+# Evaluation Criteria
+
+We'll focus on the following aspects:
+- Correctness
+- Readability 
+- Efficiency of SQL queries
+- Familiarity with Django and Django REST Framework best practices
+
