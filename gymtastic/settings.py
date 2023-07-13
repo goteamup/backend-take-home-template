@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "customers",
     "bookings",
     "classes",
+    "gymtastic.fixtures",
 ]
 
 MIDDLEWARE = [
