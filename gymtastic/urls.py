@@ -18,9 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 from customers import urls as customer_urls
 from bookings import urls as booking_urls
+from classes import urls as class_urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include(customer_urls)),
     path("api/", include(booking_urls)),
+    path("api/", include(class_urls)),
 ]
