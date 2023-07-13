@@ -14,7 +14,8 @@ Steps:
 - Create a Python virtual environment by running `python3 -m venv .venv` in the project root.
 - Activate the environment with source .venv/bin/activate
 - Run `python manage.py migrate` to create the database tables in a local SQLite database.
-- Create some fixture data by running `python manage.py createfixtures`.
+- Create some fixture data by running `python manage.py genfixtures`.
+- Start the web server by running `python manage.py runserver`.
 
 Congrats! Now you can browse the existing API endpoints at the following URLs:
 - [http://localhost:8000/api/class_sessions](http://localhost:8000/api/class_sessions)
