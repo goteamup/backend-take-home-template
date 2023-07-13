@@ -1,6 +1,8 @@
 # Intro
 
-Gymtastic is small fitness center with big dreams of helping their community become active and healthy. So far, they've been using an Excel spreadsheet to manage their business, but they'd like to build a more powerful system using Python, Django, Django REST Framework and SQL.
+Gymtastic is small fitness center with big dreams of helping their community become active and healthy. They've been using an Excel spreadsheet to manage their business, but they'd like to build a more powerful system using Python, Django, Django REST Framework and SQL.
+
+So far, they've built some basic models and endpoints for class types, class sessions, customers and bookings. An example of a class type is yoga, and a class session would be specific date and time for a yoga class. Bookings link customers to the class sessions they attend.
 
 Please follow the setup steps below and follow the project instructions to help Gymtastic grow their business.
 
@@ -14,7 +16,12 @@ Steps:
 - Run `python manage.py migrate` to create the database tables in a local SQLite database.
 - Create some fixture data by running `python manage.py createfixtures`.
 
-Congrats! Now you can browse the API endpoints by going to `http://localhost:8000/api`.
+Congrats! Now you can browse the existing API endpoints at the following URLs:
+- [http://localhost:8000/api/class_sessions](http://localhost:8000/api/class_sessions)
+- [http://localhost:8000/api/class_types](http://localhost:8000/api/class_types)
+- [http://localhost:8000/api/customers](http://localhost:8000/api/customers)
+- [http://localhost:8000/api/bookings](http://localhost:8000/api/bookings)
+
 
 # Project Instructions
 
