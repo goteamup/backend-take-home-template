@@ -1,8 +1,8 @@
 # Intro
 
-Gymtastic is small fitness center with big dreams of helping their community become active and healthy. They've been using an Excel spreadsheet to manage their business, but they'd like to build a more powerful system using Python, Django, Django REST Framework and SQL.
+Gymtastic is a small fitness center with big dreams of helping their community become active and healthy. They've been using an Excel spreadsheet to manage their business, but they'd like your help to build a more powerful system using Python, Django, Django REST Framework and SQL.
 
-So far, they've built some basic models and endpoints for class types, class sessions, customers and bookings. An example of a class type is yoga, and a class session would be specific date and time for a yoga class. Bookings link customers to the class sessions they attend.
+So far, they've built some basic models and endpoints for [class types](classes/models.py), [class sessions](classes/models.py), [customers](customers/models.py) and [bookings](bookings/models.py). An example of a class type is yoga, and a class session is specific date and time for a yoga class. Bookings link customers to the class sessions they attend.
 
 Please follow the setup steps below and follow the project instructions to help Gymtastic grow their business.
 
@@ -12,7 +12,7 @@ The project requires Python 3.8 or higher.
 
 Steps:
 - Create a Python virtual environment by running `python3 -m venv .venv` in the project root.
-- Activate the environment with source .venv/bin/activate
+- Activate the environment with `source .venv/bin/activate`
 - Run `python manage.py migrate` to create the database tables in a local SQLite database.
 - Create some fixture data by running `python manage.py genfixtures`.
 - Start the web server by running `python manage.py runserver`.
@@ -26,9 +26,9 @@ Congrats! Now you can browse the existing API endpoints at the following URLs:
 
 # Project Instructions
 
-Please read over the feature descriptions below and pick two for implementation in the REST API. Please don't spend more than 3 hours on this project. For simplicity, don't implement any authentication or permissions. Assume a trusted client will be making all the requests. If you have time to write tests or you like to use TDD, that's nice, but please focus on extending the domain model and implementing the required business logic for the features.
+Please read over the feature descriptions below and **pick two** for implementation in the REST API. Please don't spend more than **3 hours on this project**. For simplicity, don't implement any authentication or permissions. Assume a trusted client will be making all the requests. If you have time to write tests or you like to use TDD, that's nice, but please focus on extending the domain model and implementing the required business logic for the features.
 
-The first step is to clone this repository to your workstation. Once you're done, you can submit it by sending the project in a file archive email attachment or by pushing the code to your own public repo and sharing the link with us. Please send us an email when you're done.
+The first step is to clone this repository to your workstation. Once you're done, make sure all your changes are on the `main` branch and send an email to robert@goteamup.com.
 
 If it's been a while since you've used this project stack, you'd likely want to reference the documentation for [Django](https://docs.djangoproject.com/en/4.2/) and [Django REST Framework](https://www.django-rest-framework.org/).
 
@@ -37,7 +37,8 @@ In summary:
 - Don't spend more than 3 hours on this project
 - Don't implement any authentication or permissions
 - Tests are always nice, but prioritize data modeling and business logic
-- Send us an email when you're done. Attach the files in an archive or link us to a public repo with the code.
+- All changes go on `main`
+- Email robert@goteamup.com when complete
 
 ## Features
 
@@ -82,4 +83,3 @@ We'll focus on the following aspects:
 - Readability 
 - Efficiency of SQL queries
 - Familiarity with Django and Django REST Framework best practices
-
