@@ -64,6 +64,9 @@ Extend the app to model any new domain objects and logic required to support thi
 Pointers:
 - Don't implement any logic related to online payments or transactions. Gymtastic deals only in cash :)
 
+### Priority Booking
+
+Gymtastic would like to allow some customers to book in advance of other customers. Some classes are popular and can fill up fast, so the business wants to ensure its most valued customers can get spots. Design a system that sets a default for how early customers can book classes before their start time and that allows the business to define segments of customers who can book classes on custom timelines. 
 
 ### Workout Tracking 
 
