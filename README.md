@@ -49,6 +49,17 @@ Gymtastic loves enthusiastic and active customers, but some have been booking mu
 
 Implement logic to return an HTTP error response if a customer attempts to book more than one class session in a single day.
 
+### Late Cancels
+
+Gymastic has had a problem lately with customers cancelling at the last moment. This hurts revenue because it leaves little time for another customer to purchase the open slot. They'd like to be able to configure a late cancel cutoff for each class type, and be able to track which bookings are cancelled past the cutoff. 
+
+Pointers:
+- Gymtastic's app doesn't yet capture a booking status or allow changing it via the REST API. This functionality should be added when building this feature.
+
+### Priority Booking
+
+Gymtastic would like to allow some customers to book in advance of other customers. Some classes are popular and can fill up fast, so the business wants to ensure its most valued customers can get spots. Design a system that sets a default for how early customers can book classes before their start time and that allows the business to define segments of customers who can book classes on custom timelines. 
+
 ### Attendance Milestones
 
 Gymtastic would like to recognize customers who are persistent and book classes regularly. 
@@ -64,20 +75,10 @@ Extend the app to model any new domain objects and logic required to support thi
 Pointers:
 - Don't implement any logic related to online payments or transactions. Gymtastic deals only in cash :)
 
-### Priority Booking
-
-Gymtastic would like to allow some customers to book in advance of other customers. Some classes are popular and can fill up fast, so the business wants to ensure its most valued customers can get spots. Design a system that sets a default for how early customers can book classes before their start time and that allows the business to define segments of customers who can book classes on custom timelines. 
-
 ### Workout Tracking 
 
 Gymtastic has some customers who use the free weights and cardio equipment, but don't attend class sessions. The business would like to keep them engaged and feeling productive. It has an idea to provide workout tracking features in its mobile app. Extend the app to provide a way for customers to track their activities during self-guided workouts. Gymtastic's space features dumbells, bench presses, treadmills, kettleballs, and stationary bikes.
 
-### Late Cancels
-
-Gymastic has had a problem lately with customers cancelling at the last moment. This hurts revenue because it leaves little time for another customer to purchase the open slot. They'd like to be able to configure a late cancel cutoff for each class type, and be able to track which bookings are cancelled past the cutoff. 
-
-Pointers:
-- Gymtastic's app doesn't yet capture a booking status or allow changing it via the REST API. This functionality should be added when building this feature.
 
 
 # Evaluation Criteria
