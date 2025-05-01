@@ -75,12 +75,6 @@ Extend the app to model any new domain objects and logic required to support thi
 Pointers:
 - Don't implement any logic related to online payments or transactions. Gymtastic deals only in cash :)
 
-### Workout Tracking 
-
-Gymtastic has some customers who use the free weights and cardio equipment, but don't attend class sessions. The business would like to keep them engaged and feeling productive. It has an idea to provide workout tracking features in its mobile app. Extend the app to provide a way for customers to track their activities during self-guided workouts. Gymtastic's space features dumbells, bench presses, treadmills, kettleballs, and stationary bikes.
-
-
-
 # Evaluation Criteria
 
 We'll focus on the following aspects:
